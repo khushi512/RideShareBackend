@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: RideS
+  data:
+    mongodb:
+      uri: mongodb+srv://khushi:mRQQFfeqy7EmqVeM@cluster0.dgxs0j9.mongodb.net/rideShare_db?retryWrites=true&w=majority&appName=Cluster0
+
+jwt:
+  secret: U29tZVN1cGVyU2VjdXJlS2V5Rm9ySldURFNob3VsZEJlMzJiYnlGTVc=
+  expiration: 86400000
+
+server:
+  port: 8081
